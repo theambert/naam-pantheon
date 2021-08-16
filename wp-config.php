@@ -73,6 +73,16 @@ if ( ! defined( 'WP_DEBUG' ) ) {
 	define('WP_DEBUG', false);
 }
 
+/* S3 Bucket Config for Wasabi S3 plugin */
+define('SSU_PROVIDER', 'aws'); // put either aws or wasabi
+define('SSU_KEY', 'AKIAYNLMKIFYYYQCPR4M');
+define('SSU_SECRET', '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');
+define('SSU_BUCKET', 'ambersbucket');
+define('SSU_FOLDER', 'naam'); // optional
+define('SSU_REGION', 'us-east-2');
+define('SSU_SURL_EXPIRY', 60); // in seconds
+define('SSU_CAPABILITY', 'manage_options'); // optional
+
 /* That's all, stop editing! Happy Pressing. */
 
 
